@@ -161,16 +161,45 @@ graph TD
 
 ---
 
+## 🌐 Deployment Instructions
+
+MatchMind AI is designed to be easily deployed as a decoupled full-stack application.
+
+### 1. Deployed Backend (Render / Railway)
+To deploy the Node.js Express server to a cloud provider:
+1. Create a new Web Service on **Render** or **Railway** and link your GitHub repository.
+2. Set the **Root Directory** setting to `backend`.
+3. Set the **Build Command** to `npm install`.
+4. Set the **Start Command** to `npm start`.
+5. Configure the following **Environment Variables**:
+   - `PORT`: (Managed automatically by the platform, defaults to 5000 or dynamic port).
+   - `ALLOWED_ORIGINS`: Comma-separated list of allowed origins (e.g. `https://matchmind-ai.vercel.app`).
+   - `WATSONX_API_KEY`: Your IBM Cloud API key (for Granite generation).
+   - `WATSONX_PROJECT_ID`: Your watsonx.ai Project ID.
+   - `WATSONX_URL`: `https://us-south.ml.cloud.ibm.com`.
+   - `WATSONX_MODEL_ID`: `ibm/granite-13b-chat-v2`.
+
+### 2. Deployed Frontend (Vercel)
+To deploy the React client:
+1. Import your repository into **Vercel**.
+2. Set the **Root Directory** option to `frontend`.
+3. Vercel will auto-detect **Vite** as the framework and configure the build settings (`npm run build`, `dist` output).
+4. Configure the following **Environment Variables**:
+   - `VITE_API_BASE_URL`: The URL of your deployed Express backend (e.g. `https://matchmind-ai-backend.onrender.com/api`).
+5. Click **Deploy**. Vercel will build and serve your application over SSL.
+
+---
+
 ## 🎥 Demo Video & Screenshots
+
+- **Live Application Link**: [MatchMind AI Live Demo](https://matchmind-ai.vercel.app-placeholder) *(Replace with your actual deployment link)*
+- **Demo Video Walkthrough**: [Watch the Video Demonstration](https://example.com/demo-video-placeholder) *(Replace with your recording link)*
 
 ### Premium Landing Page
 ![Landing Page Screenshot](https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=1200)
 
 ### Tactical whiteboards & Momentum Graphs
 *(Vite Dev Server live rendering preview)*
-
-> [!TIP]
-> **Video Demonstration**: [Watch the MatchMind AI Walkthrough](https://example.com/demo-video-placeholder) (Replace with your recording link)
 
 ---
 
