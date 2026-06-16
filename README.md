@@ -190,16 +190,20 @@ To deploy the React client:
 
 ---
 
-## 🎥 Demo Video & Screenshots
+## 🎥 Demo Video & Live App Links
 
-- **Live Application Link**: [MatchMind AI Live Demo](https://matchmind-ai.vercel.app-placeholder) *(Replace with your actual deployment link)*
+- **Live Application Link**: [MatchMind AI Live Demo](https://matchmind-ai-deshraj.vercel.app)
+- **Backend API Link**: [MatchMind AI API Feed](https://matchmind-ai-backend.onrender.com/api/matches)
 - **Demo Video Walkthrough**: [Watch the Video Demonstration](https://example.com/demo-video-placeholder) *(Replace with your recording link)*
 
-### Premium Landing Page
-![Landing Page Screenshot](https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=1200)
+---
 
-### Tactical whiteboards & Momentum Graphs
-*(Vite Dev Server live rendering preview)*
+## Screenshots
+
+![Match Event Explainer](screenshots/match-event-explainer.png)
+![Tactical Shift Analyzer](screenshots/tactical-shift-analyzer.png)
+![VAR Trust Companion](screenshots/var-trust-companion.png)
+![Momentum Insight Dashboard](screenshots/momentum-dashboard.png)
 
 ---
 
@@ -208,9 +212,3 @@ To deploy the React client:
 2. **IBM Watson Text-to-Speech**: Integrate voice synthesized narrations of tactical shifts and VAR checks for visually impaired fans or audio-only listening.
 3. **Multiplayer Fan Debates**: Implement fan discussion channels where the IBM Granite model acts as an impartial referee, referencing IFAB rules to resolve disputes.
 4. **Predictive Analytics**: Utilize Watson Machine Learning to run in-play forecasts predicting substitutions and tactical countermeasures before they happen.
-
-
-## Live Demo
-
-Frontend: https://matchmind-ai-deshraj.vercel.app  
-Backend API: https://matchmind-ai-backend.onrender.com/api/matches
