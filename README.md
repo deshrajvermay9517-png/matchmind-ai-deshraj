@@ -190,11 +190,10 @@ To deploy the React client:
 
 ---
 
-## 🎥 Demo Video & Live App Links
+## Live App Links
 
 - **Live Application Link**: [MatchMind AI Live Demo](https://matchmind-ai-deshraj.vercel.app)
 - **Backend API Link**: [MatchMind AI API Feed](https://matchmind-ai-backend.onrender.com/api/matches)
-- **Demo Video Walkthrough**: [Watch the Video Demonstration](https://example.com/demo-video-placeholder) *(Replace with your recording link)*
 
 ---
 
